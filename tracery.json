@@ -1,0 +1,31 @@
+{
+  "event": [
+    "#char.capitalize# just hit 3000 elo on MCSR Ranked! {./assets/ranked/mcsr ranked.jpg}",
+    "Oh no! #char.capitalize# died in the #bastion#.",
+    "Friendly reminder that #char.capitalize# is banned in six different states!",
+    "#char.capitalize# has banned #char# chatters from their streams.",
+    "#char.capitalize# bet #char# to a best of 5 Ranked match and #best of outcome#. {./assets/ranked/mcsr ranked.jpg}"
+  ],
+  
+  "char": [
+    "Couriway {./assets/runners/couriway.png)",
+    "Feinberg {./assets/runners/feinberg.png)",
+    "Hackingnoises {./assets/runners/hackingnoises.png)"
+  ],
+
+  "bastion": [
+    "Housing",
+    "Stables",
+    "Treasure",
+    "Bridge"
+  ],
+  
+  "best of outcome": [
+    "won 3-0",
+    "won 3-2",
+    "won 2-1",
+    "lost 1-2",
+    "lost 2-3",
+    "lost 0-3"
+  ]
+}
