@@ -5,6 +5,7 @@ import tracery
 from typing import Tuple
 from tracery.modifiers import base_english
 
+import bot_logging
 
 
 class TraceryError(Exception):
