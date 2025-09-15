@@ -1,0 +1,6 @@
+requests==2.31.0
+atproto==0.0.59
+tweepy==4.14.0
+tracery==0.1.1
+charset-normalizer==3.4.1
+pillow==10.0.0
