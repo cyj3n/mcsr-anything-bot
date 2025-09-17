@@ -8,9 +8,9 @@
   ],
   
   "char": [
-    "Couriway {./assets/runners/couriway.png)",
-    "Feinberg {./assets/runners/feinberg.png)",
-    "Hackingnoises {./assets/runners/hackingnoises.png)"
+    "Couriway {./assets/runners/couriway.png}",
+    "Feinberg {./assets/runners/feinberg.png}",
+    "Hackingnoises {./assets/runners/hackingnoises.png}"
   ],
 
   "bastion": [
