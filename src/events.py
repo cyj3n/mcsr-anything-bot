@@ -32,9 +32,6 @@ class EventParser:
         with open(file_path) as json_file:
             tracery_file = json.load(json_file)
 
-        # append abno list to char list
-        tracery_file['char'].extend(tracery_file['abno'])
-
         parser = get_bot_tracery_generator(tracery_file)
 
         self.__parser = parser
