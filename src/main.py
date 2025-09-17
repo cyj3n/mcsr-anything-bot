@@ -38,7 +38,6 @@ twt_thread = threading.Thread(
     target=post.twt_post,
     kwargs={
         'twt_api': twt_api,
-        'twt_client': twt_client,
         'parsed_text': parsed_text,
         'pics': pics
     }
