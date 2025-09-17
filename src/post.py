@@ -6,7 +6,7 @@ import bot_logging
 
 
 
-def twt_post(twt_api: tweepy.API, parsed_text, pics, log=False) -> None:
+def twt_post(twt_api: tweepy.API, twt_client: tweepy.Client, parsed_text, pics, log=False) -> None:
     """
     Send a tweet with media using v1.1 API only.
     
