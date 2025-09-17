@@ -21,7 +21,7 @@ def auth_v2(consumer_key, consumer_secret, access_token, access_token_secret, be
         access_token = access_token,
         access_token_secret = access_token_secret,
         bearer_token = bearer_token,
-        return_type = None, 
+        return_type = None
     )
 
 # Set up Twitter API clients
