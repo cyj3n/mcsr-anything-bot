@@ -1,54 +1,76 @@
 {
   "event": [
-    "#[char:#runner#][charImg:#runner.img#]solo sentence#",
-    "#[char1:#runner#][char1Img:#runner.img#][char2:#runner#][char2Img:#runner.img#]duo sentence#",
-    "#[char1:#runner#][char1Img:#runner.img#][char2:#runner#][char2Img:#runner.img#][char3:#runner#][char3Img:#runner.img#]trio sentence#"
+    "#[char:#runner#]solo sentence#",
+    "#[char1:#runner#][char2:#runner#]duo sentence#",
+    "#[char1:#runner#][char2:#runner#][char3:#runner#]trio sentence#"
   ],
 
   "solo sentence": [
-    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. #charImg# {./assets/stupid/F5.png}",
-    "#char#... #char#, we need to cook! #charImg# {./assets/stupid/Sparkly Crystals.png}",
-    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! #charImg# {./assets/stupid/MIKU MIKU BEAM.png}",
+    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. {#char.img#} {./assets/stupid/F5.png}",
+    "#char#... #char#, we need to cook! {#char.img#} {./assets/stupid/Sparkly Crystals.png}",
+    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
 
-    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#][lawyerImg:#runner.img#]#lawyer# #lawyerImg# is your lawyer, are you winning?",
+    "#char# just hit 3000 elo on MCSR Ranked! {#char.img#} {./assets/ranked/MCSR Ranked.png}",
+    "#char# HATES MCSR Ranked. {#char.img#} {./assets/ranked/MCSR Ranked.png}",
+    "#char# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
 
-    "Oh no! #char# #charImg# died in the #structure#.",
-    "#char# has gone vegan! #charImg# {./assets/irl/Vegetables.png}",
+    "Oh no! #char# {#char.img#} died in the #structure#.",
+    "#char# {#char.img#} entered a bastion and— HOW MANY PIGLINS ???????? {./assets/stupid/HOW MANY PIGLINS.png}",
 
-    "#char# appreciation post ♡ #charImg#",
-    "#char# #charImg# thinks you should #motivation# ♡ :)",
-    "#char# #charImg# thinks you should #demotivation# ♡ :)",
+    "#char# once drank cement when they were 12. {#char.img#}",
+    "#char# has confirmed they are a furry! {#char.img#}",
+    "#char# has turned into a brick. {#char.img#} {./assets/stupid/Brick.png}",
+    "#char# has eaten a vegetable. {#char.img#} {./assets/irl/Vegetables.png}",
+    "#char# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
 
-    "#char# #charImg# has been cancelled for #crime#.",
-    "#char# put it all on black and #outcome#! #charImg# {./assets/stupid/Roulette.png}",
-    "#char# doesn't pay their taxes. #charImg# {./assets/stupid/crime/Tax Evasion.png}",
-    
-    "#char# #charImg# has been revealed as a new member of #kpop#",
-    "#char# #charImg# will be teaching #collab# how to speedrun Minecraft!",
-    "#char# #charImg# will be teaching the members of #kpop# how to speedrun Minecraft!",
+    "#char# appreciation post ♡ {#char.img#}",
+    "#char# {#char.img#} thinks you should #motivation# ♡ :)",
+    "#char# {#char.img#} thinks you should #demotivation# ♡ :)",
 
-    "Heartbreaking 💔💔 #char# is woke... #charImg# {./assets/stupid/Woke.png}",
-    "#char.capitalizeAll#! are you /srs or /j ?! #charImg# {./assets/stupid/srs or j.png}"
+    "#char# {#char.img#} has been cancelled for #crime#.",
+    "#char# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
+    "#char# doesn't pay their taxes. {#char.img#} {./assets/stupid/crime/Tax Evasion.png}",
+    "#char# {#char.img#} has been sentenced to life in prison for #crime#.",
+    "Reports are saying #char# has fainted from seeing a job application! {#char.img#} {./assets/stupid/Job Application.png}",
+
+    "CONFIRMED! #char# {#char.img#} will be starring on the next season of #show#!",
+    "#char# {#char.img#} has been revealed as a new member of #kpop#",
+    "#char# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
+    "#char# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
+
+    "Heartbreaking 💔💔 #char# is woke... {#char.img#} {./assets/stupid/Woke.png}",
+    "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}",
+
+    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
+  ],
+
+  "court_lawyer": [
+    "#lawyer.name# {#lawyer.img#} is your lawyer, are you cooked?",
+    "#lawyer.name# {#lawyer.img#} is your lawyer, are you winning?",
+    "#lawyer.name# {#lawyer.img#} is your lawyer, are you losing?"
   ],
 
   "duo sentence": [
-    "#char1# #outcome# against #char2# in a Ranked game. #char1Img# #char2Img# {./assets/ranked/MCSR Ranked.png}",
-    "#char1# bet #char2# to a best of 3 Ranked match and #outcome# #best of outcome#. #char1Img# #char2Img# {./assets/ranked/MCSR Ranked.png}",
-    "#char1# has stolen #char2.possessive# elo! Be wary! #char1Img# #char2Img# {./assets/ranked/Elo.png}",
-    
-    "#char1# has blocked #char2# on Twitter. #char1Img# #char2Img# {./assets/stupid/Twitter Block.png}",
-    "{./assets/irl/Boxing.png} Who would win in a boxing match? #char1# or #char2#? #char1Img# #char2Img#",
-    "{./assets/irl/Cook Off.png} #char1# and #char2# are having a cook-off! Who would win? #char1Img# #char2Img#",
+    "#char1# #outcome# against #char2# in a Ranked game. {#char1.img#} {#char2.img#} {./assets/ranked/MCSR Ranked.png}",
+    "#char1# bet #char2# to a best of 3 Ranked match and #outcome# #best of outcome#. {#char1.img#} {#char2.img#} {./assets/ranked/MCSR Ranked.png}",
+    "#char1# has stolen #char2.possessive# elo! Be wary! {#char1.img#} {#char2.img#} {./assets/ranked/Elo.png}",
 
-    "#char1# slapped #char2#! What the hell?! D: #char1Img# #char2Img#",
-    "#char1# #char1Img# was hit by #vehicle.a# driven by #char2#! #char2Img#",
-    "#char1# #char1Img# has filed a restraining order {./assets/stupid/Restraining Order.png} against #char2#! #char2Img#",
+    "#char1# has banned #char2# chatters from their chat. {#char1.img#} {#char2.img#}",
+    "#char1# has blocked #char2# on Twitter. {#char1.img#} {#char2.img#} {./assets/stupid/Twitter Block.png}",
+    "#char1# has released a diss track about #char2#! {#char1.img#} {#char2.img#}",
 
-    "#char1# has bought #char2# the Miku car! #char1Img# #char2Img# {./assets/irl/vehicle/Miku Car.png}"
+    "{./assets/irl/Boxing.png} Who would win in a boxing match? #char1# or #char2#? {#char1.img#} {#char2.img#}",
+    "{./assets/irl/Cook Off.png} #char1# and #char2# are having a cook-off! Who would win? {#char1.img#} {#char2.img#}",
+
+    "#char1# slapped #char2#! What the hell?! D: {#char1.img#} {#char2.img#}",
+    "#char1# {#char1.img#} was hit by #vehicle.a# driven by #char2#! {#char2.img#}",
+    "#char1# {#char1.img#} has filed a restraining order {./assets/stupid/Restraining Order.png} against #char2#! {#char2.img#}",
+
+    "#char1# has bought #char2# the Miku car! {#char1.img#} {#char2.img#} {./assets/irl/vehicle/Miku Car.png}"
   ],
 
   "trio sentence": [
-    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #char1#, #char2#, and #char3#. What do you do? #char1Img# #char2Img# #char3Img#"
+    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #char1#, #char2#, and #char3#. What do you do? {#char1.img#} {#char2.img#} {#char3.img#}"
   ],
   
   "runner": [
@@ -159,9 +181,9 @@
   ],
 
   "crime": [
-    "#[victim:#runner#][victimImg:#runner.img#]stealing #victim.possessive# elo! #victimImg# {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
-    "#[victim:#runner#][victimImg:#runner.img#]stealing #victim.possessive# #animal#! #victimImg#",
-    "#[victim:#runner#][victimImg:#runner.img#]killing #victim.possessive# #animal#! #victimImg#",
+  "#[victim:#runner#]stealing #victim.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
+  "#[victim:#runner#]stealing #victim.possessive# #animal#! {#victim.img#}",
+  "#[victim:#runner#]killing #victim.possessive# #animal#! {#victim.img#}",
 
     "burning a house down {./assets/stupid/crime/Arson.png}",
     "{./assets/stupid/crime/Robbery.png} robbing #store.a#",
