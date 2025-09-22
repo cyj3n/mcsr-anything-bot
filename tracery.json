@@ -1,56 +1,9 @@
 {
   "event": [
-    "#runner# just hit 3000 elo on MCSR Ranked! {./assets/ranked/MCSR Ranked.png}",
-    "#runner# HATES MCSR Ranked. {./assets/ranked/MCSR Ranked.png}",
-    "#runner# #outcome# against #runner# in a Ranked game. {./assets/ranked/MCSR Ranked.png}",
-    "#runner# bet #runner# to a best of 3 Ranked match and #outcome# #best of outcome#. {./assets/ranked/MCSR Ranked.png}",
-    "#runner# has stolen #runner.possessive# elo! Be wary! {./assets/ranked/Elo.png}",
-    "#runner# has lost 10 games in a row... pats... {./assets/ranked/Lose Streak.png}",
-    
-    "Oh no! #runner# died in the #structure#.",
-    "#runner# entered a bastion and— HOW MANY PIGLINS ????????{./assets/stupid/HOW MANY PIGLINS.png}",
-
-    "#runner# once drank cement when they were 12.",
-    "#runner# has confirmed they are a furry!",
-    "#runner# has turned into a brick. {./assets/stupid/Brick.png}",
-    "#runner# has eaten a vegetable. {./assets/irl/Vegetables.png}",
-    "#runner# has gone vegan! {./assets/irl/Vegetables.png}",
-    
-    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #runner#, #runner#, and #runner#. What do you do?",
-
-    "#runner# has banned #runner# chatters from their chat.",
-    "#runner# has blocked #runner# on Twitter. {./assets/stupid/Twitter Block.png}",
-    "#runner# has released a diss track about #runner#!",
-
-    "{./assets/irl/Boxing.png} Who would win in a boxing match? #runner# or #runner#?",
-    "{./assets/irl/Cook Off.png} #runner# and #runner# are having a cook-off! Who would win?",
-
-    "#runner# appreciation post ♡",
-    "#runner# thinks you should #motivation# ♡ :)",
-    "#runner# thinks you should #demotivation# ♡ :)",
-
-    "#runner# slapped #runner#! What the hell?! D:",
-    "#runner# was hit by #vehicle.a# driven by #runner#!",
-    "#runner# has been cancelled for #crime#.",
-    "#runner# put it all on black and #outcome#! {./assets/stupid/Roulette.png",
-    "#runner# doesn't pay their taxes. {./assets/stupid/crime/Tax Evasion.png}",
-    "#runner# has filed a restraining order {./assets/stupid/Restraining Order.png} against #runner#!",
-    "{./assets/irl/places/Court.png} You're in court for #crime#! #runner# is your lawyer, are you winning?",
-    "#runner# has been sentenced to life in prison for #crime#.",
-    "Reports are saying #runner# had fainted from seeing a job application! {./assets/stupid/Job Application.png}",
-
-    "CONFIRMED! #runner# will be starring on the next season of #show#!",
-    "#runner# has been revealed as a new member of #kpop#",
-    "#runner# will be teaching #collab# how to speedrun Minecraft!",
-    "#runner# will be teaching the members of #kpop# how to speedrun Minecraft!",
-
-    "Heartbreaking 💔💔  #runner# is woke... {./assets/stupid/Woke.png}",
-    "#runner# has bought #runner# the Miku car! {./assets/irl/vehicle/Miku Car.png}",
-    "#runner.capitalizeAll#! are you /srs or /j ?! {./assets/stupid/srs or j.png}",
-    "#[char:runner]rep sentence#"
+    "#[char:#runner#]sentence#"
   ],
 
-  "rep sentence" : [
+  "sentence" : [
     "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. {./assets/stupid/F5.png}",
     "#char#... #char#, we need to cook! {./assets/stupid/Sparkly Crystals.png}",
     "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {./assets/stupid/MIKU MIKU BEAM.png}"
