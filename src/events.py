@@ -44,6 +44,7 @@ class EventParser:
         """
         raw_text = self.flatten("#event#")
         parsed_text, pics = self.parse_raw_text(raw_text)
+        pics = pics[:4]
         parsed_text = re.sub(r'\s+', ' ', parsed_text).strip()
         return parsed_text, pics
 
