@@ -1,9 +1,9 @@
 {
   "event": [
-    "#runner# just hit 3000 elo on MCSR Ranked! {./assets/ranked/MCSR Ranked.jpg}",
+    "#runner# just hit 3000 elo on MCSR Ranked! {./assets/ranked/MCSR Ranked.png}",
     "#runner# HATES MCSR Ranked. {./assets/ranked/MCSR Ranked.png}",
-    "#runner# #outcome# against #runner# in a Ranked game. {./assets/ranked/MCSR Ranked.jpg}",
-    "#runner# bet #runner# to a best of 3 Ranked match and #outcome# #best of outcome#. {./assets/ranked/MCSR Ranked.jpg}",
+    "#runner# #outcome# against #runner# in a Ranked game. {./assets/ranked/MCSR Ranked.png}",
+    "#runner# bet #runner# to a best of 3 Ranked match and #outcome# #best of outcome#. {./assets/ranked/MCSR Ranked.png}",
     "#runner# has stolen #runner.possessive# elo! Be wary! {./assets/ranked/Elo.png}",
     "#runner# has lost 10 games in a row... pats... {./assets/ranked/Lose Streak.png}",
     
