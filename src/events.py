@@ -125,13 +125,21 @@ def s(text: str, *params):
         return s_base(text)
 
 
-def runner_name(text):
-    return text.split("|")[0]
+def runner_name(text: str, *params):
+    """
+    Extracts the name from 'Name|path/to/img.png'
+    """
+    return text.split("|", 1)[0].strip()
 
 
-def runner_img(text):
-    return text.split("|")[1] if "|" in text else ""
-
+def runner_img(text: str, *params):
+    """
+    Extracts the image path from 'Name|path/to/img.png' and wraps in {}
+    """
+    parts = text.split("|", 1)
+    if len(parts) > 1:
+        return "{" + parts[1].strip() + "}"
+    return ""
 
 added_mods = {
     'possessive': possessive,
