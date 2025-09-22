@@ -6,26 +6,26 @@
   ],
 
   "solo sentence": [
-    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. {#char.img#} {./assets/stupid/F5.png}",
-    "#char#... #char#, we need to cook! {#char.img#} {./assets/stupid/Sparkly Crystals.png}",
+    "But then, #char.name# had a very good idea. #char.name# used F5. See, using F5 gave them a whole new perspective. {#char.img#} {./assets/stupid/F5.png}",
+    "#char.name#... #char.name#, we need to cook! {#char.img#} {./assets/stupid/Sparkly Crystals.png}",
     "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
 
-    "#char# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
+    "#char.name# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
 
-    "Oh no! #char# {#char.img#} died in the #structure#.",
-    "#char# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
+    "Oh no! #char.name# {#char.img#} died in the #structure#.",
+    "#char.name# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
 
-    "#char# appreciation post ♡ {#char.img#}",
-    "#char# {#char.img#} thinks you should #motivation# ♡ :)",
-    "#char# {#char.img#} thinks you should #demotivation# ♡ :)",
+    "#char.name# appreciation post ♡ {#char.img#}",
+    "#char.name# {#char.img#} thinks you should #motivation# ♡ :)",
+    "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
 
-    "#char# {#char.img#} has been cancelled for #crime#.",
-    "#char# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
+    "#char.name# {#char.img#} has been cancelled for #crime#.",
+    "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
     
-    "#char# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
-    "#char# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
+    "#char.name# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
+    "#char.name# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
 
-    "Heartbreaking 💔💔 #char# is woke... {#char.img#} {./assets/stupid/Woke.png}",
+    "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
     "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}",
 
     "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
@@ -38,19 +38,19 @@
   ],
 
   "duo sentence": [
-    "#char1# has stolen #char2.possessive# elo! Be wary! {#char1.img#} {#char2.img#} {./assets/ranked/Elo.png}",
+    "#char1.name# has stolen #char2.possessive# elo! Be wary! {#char1.img#} {#char2.img#} {./assets/ranked/Elo.png}",
 
-    "{./assets/irl/Boxing.png} Who would win in a boxing match? #char1# or #char2#? {#char1.img#} {#char2.img#}",
-    "{./assets/irl/Cook Off.png} #char1# and #char2# are having a cook-off! Who would win? {#char1.img#} {#char2.img#}",
+    "{./assets/irl/Boxing.png} Who would win in a boxing match? #char1.name# or #char2.name#? {#char1.img#} {#char2.img#}",
+    "{./assets/irl/Cook Off.png} #char1.name# and #char2.name# are having a cook-off! Who would win? {#char1.img#} {#char2.img#}",
     
-    "#char1# {#char1.img#} was hit by #vehicle.a# driven by #char2#! {#char2.img#}",
-    "#char1# {#char1.img#} has filed a restraining order {./assets/stupid/Restraining Order.png} against #char2#! {#char2.img#}",
+    "#char1.name# {#char1.img#} was hit by #vehicle.a# driven by #char2.name#! {#char2.img#}",
+    "#char1.name# {#char1.img#} has filed a restraining order {./assets/stupid/Restraining Order.png} against #char2.name#! {#char2.img#}",
 
-    "#char1# has bought #char2# the Miku car! {#char1.img#} {#char2.img#} {./assets/irl/vehicle/Miku Car.png}"
+    "#char1.name# has bought #char2.name# the Miku car! {#char1.img#} {#char2.img#} {./assets/irl/vehicle/Miku Car.png}"
   ],
 
   "trio sentence": [
-    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #char1#, #char2#, and #char3#. What do you do? {#char1.img#} {#char2.img#} {#char3.img#}"
+    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #char1.name#, #char2.name#, and #char3.name#. What do you do? {#char1.img#} {#char2.img#} {#char3.img#}"
   ],
   
   "runner": [
@@ -161,14 +161,12 @@
   ],
 
   "crime": [
-  "#[victim:#runner#]stealing #victim.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
-  "#[victim:#runner#]stealing #victim.possessive# #animal#! {#victim.img#}",
-  "#[victim:#runner#]killing #victim.possessive# #animal#! {#victim.img#}",
+    "#[victim:#runner#]stealing #victim.name.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
+    "#[victim:#runner#]stealing #victim.name.possessive# #animal#! {#victim.img#}",
+    "#[victim:#runner#]killing #victim.name.possessive# #animal#! {#victim.img#}",
 
-    "burning a house down {./assets/stupid/crime/Arson.png}",
     "{./assets/stupid/crime/Robbery.png} robbing #store.a#",
     "tax evasion {./assets/stupid/crime/Tax Evasion.png}",  
-    "killing a villager {./assets/stupid/crime/Villager Die.png}",
     "feeding a parrot cookies {./assets/stupid/crime/Parrot Cookie.png}"
   ],
 
