@@ -12,9 +12,6 @@
     
     "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
     
-    "#char.name# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
-    "#char.name# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
-
     "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
     "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}"
   ],
@@ -42,11 +39,8 @@
   ],
   
   "runner": [
-    "Couriway|./assets/runners/Couriway.png",
     "Feinberg|./assets/runners/Feinberg.png",
     "raddles|./assets/runners/raddles.png",
-    "7rowl|./assets/runners/7rowl.png",
-    "bigbigmongey|./assets/runners/bigbigmongey.png",
     "BeefSalad|./assets/runners/BeefSalad.png",
     "dolqhin|./assets/runners/dolqhin.png",
     "oGarfield|./assets/runners/oGarfield.png"
