@@ -1,10 +1,34 @@
 {
   "event": [
-    "#[char:#runner#]solo sentence#"
+    "#[char:#runner#]solo sentence#",
+    "#[char1:#runner#][char2:#runner#]duo sentence#",
+    "#[char1:#runner#][char2:#runner#][char3:#runner#]trio sentence#"
   ],
 
   "solo sentence": [
-    "#char.name.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}"
+    "But then, #char.name# had a very good idea. #char.name# used F5. See, using F5 gave them a whole new perspective. {#char.img#} {./assets/stupid/F5.png}",
+    "#char.name#... #char.name#, we need to cook! {#char.img#} {./assets/stupid/Sparkly Crystals.png}",
+    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.name.capitalizeAll# #char.name.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
+
+    "#char.name# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
+
+    "Oh no! #char.name# {#char.img#} died in the #structure#.",
+    "#char.name# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
+
+    "#char.name# appreciation post ♡ {#char.img#}",
+    "#char.name# {#char.img#} thinks you should #motivation# ♡ :)",
+    "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
+
+    "#char.name# {#char.img#} has been cancelled for #crime#.",
+    "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
+    
+    "#char.name# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
+    "#char.name# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
+
+    "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
+    "#char.name.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}",
+
+    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
   ],
 
   "court_lawyer": [
@@ -14,7 +38,7 @@
   ],
 
   "duo sentence": [
-    "#char1.name# has stolen #char2.possessive# elo! Be wary! {#char1.img#} {#char2.img#} {./assets/ranked/Elo.png}",
+    "#char1.name# has stolen #char2.name.possessive# elo! Be wary! {#char1.img#} {#char2.img#} {./assets/ranked/Elo.png}",
 
     "{./assets/irl/Boxing.png} Who would win in a boxing match? #char1.name# or #char2.name#? {#char1.img#} {#char2.img#}",
     "{./assets/irl/Cook Off.png} #char1.name# and #char2.name# are having a cook-off! Who would win? {#char1.img#} {#char2.img#}",
@@ -30,7 +54,61 @@
   ],
   
   "runner": [
-    "oGarfield|./assets/runners/oGarfield.png"
+    "Couriway|./assets/runners/Couriway.png",
+    "Feinberg|./assets/runners/Feinberg.png",
+    "raddles|./assets/runners/raddles.png",
+    "silverrruns|./assets/runners/silverrruns.png",
+    "Fulham|./assets/runners/Fulham.png",
+    "nEmerald|./assets/runners/nEmerald.png",
+    "dandannyboy|./assets/runners/dandannyboy.png",
+    "President Poundcake|./assets/runners/President Poundcake.png",
+    "fruitberries|./assets/runners/fruitberries.png",
+    "Fyroah|./assets/runners/Fyroah.png",
+    "Nerdi|./assets/runners/Nerdi.png",
+    "Oliver|./assets/runners/OliverMCSR.png",
+    "Infume|./assets/runners/Infume.png",
+    "KyleEff|./assets/runners/KyleEff.png",
+    "TapL|./assets/runners/TapL.png",
+    "rekrap|./assets/runners/rekrap.png",
+    "Specnr|./assets/runners/Specnr.png",
+    "MoleyG|./assets/runners/MoleyG.png",
+    "Dylqn|./assets/runners/Dylqn.png",
+    "Cube1337x|./assets/runners/Cube1337x.png",
+    "zylenox|./assets/runners/zylenox.png",
+    "Dav1E|./assets/runners/Dav1E.png",
+    "TalkingMime|./assets/runners/TalkingMime.png",
+    "doogile|./assets/runners/doogile.png",
+    "Katherine|./assets/runners/Queenkac.png",
+    "Automatt|./assets/runners/AutomattPL.png",
+    "TigerMCSR|./assets/runners/TigerMCSR.png",
+    "oshy|./assets/runners/oshy.png",
+    "r0hkx|./assets/runners/r0hkx.png",
+    "hackingnoises|./assets/runners/hackingnoises.png",
+    "7rowl|./assets/runners/7rowl.png",
+    "bigbigmongey|./assets/runners/bigbigmongey.png",
+    "BeefSalad|./assets/runners/BeefSalad.png",
+    "Drip120|./assets/runners/Drip120.png",
+    "oxidiot|./assets/runners/oxidiot.png",
+    "Erikfzf|./assets/runners/Erikfzf.png",
+    "lowkey|./assets/runners/lowkey.png",
+    "edcr|./assets/runners/edcr.png",
+    "JustAltoid|./assets/runners/JustAltoid.png",
+    "skycrab|./assets/runners/skycrab.png",
+    "HanabiYaki|./assets/runners/HanabiYaki.png",
+    "dolqhin|./assets/runners/dolqhin.png",
+    "v_strid|./assets/runners/v_strid.png",
+    "oGarfield|./assets/runners/oGarfield.png",
+    "mollyyxy|./assets/runners/mollyyxy.png",
+    "Loefars|./assets/runners/Loefars.png",
+    "Saltron_mp4|./assets/runners/Saltron_mp4.png",
+    "Dawn357x|./assets/runners/Dawn357x.png",
+    "CookieAddicts|./assets/runners/CookieAddicts.png",
+    "lakesuner|./assets/runners/lakesuner.png",
+    "hpx374|./assets/runners/hpx374.png",
+    "Andronicus|./assets/runners/Andronicus.png",
+    "Aquacorde|./assets/runners/Aquacorde.png",
+    "GradientGray|./assets/runners/GradientGray.png",
+    "priffie|./assets/runners/priffie.png"
   ],
 
   "outcome": [
