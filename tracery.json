@@ -1,31 +1,228 @@
 {
   "event": [
-    "#char.capitalize# just hit 3000 elo on MCSR Ranked! {./assets/ranked/mcsr ranked.jpg}",
-    "Oh no! #char.capitalize# died in the #bastion#.",
-    "Friendly reminder that #char.capitalize# is banned in six different states!",
-    "#char.capitalize# has banned #char# chatters from their streams.",
-    "#char.capitalize# bet #char# to a best of 5 Ranked match and #best of outcome#. {./assets/ranked/mcsr ranked.jpg}"
-  ],
-  
-  "char": [
-    "Couriway {./assets/runners/couriway.png}",
-    "Feinberg {./assets/runners/feinberg.png}",
-    "Hackingnoises {./assets/runners/hackingnoises.png}"
+    "#runner# just hit 3000 elo on MCSR Ranked! {./assets/ranked/MCSR Ranked.jpg}",
+    "#runner# HATES MCSR Ranked. {./assets/ranked/MCSR Ranked.png}",
+    "#runner# #outcome# against #runner# in a Ranked game. {./assets/ranked/MCSR Ranked.jpg}",
+    "#runner# bet #runner# to a best of 3 Ranked match and #outcome# #best of outcome#. {./assets/ranked/MCSR Ranked.jpg}",
+    "#runner# has stolen #runner.possessive# elo! Be wary! {./assets/ranked/Elo.png}",
+    "#runner# has lost 10 games in a row... pats... {./assets/ranked/Lose Streak.png}",
+    
+    "Oh no! #runner# died in the #structure#.",
+    "#runner# entered a bastion and— HOW MANY PIGLINS ????????{./assets/stupid/HOW MANY PIGLINS.png}",
+
+    "#runner# once drank cement when they were 12.",
+    "#runner# has confirmed they are a furry!",
+    "#runner# has turned into a brick. {./assets/stupid/Brick.png}",
+    "#runner# has eaten a vegetable. {./assets/irl/Vegetables.png}",
+    "#runner# has gone vegan! {./assets/irl/Vegetables.png}",
+    
+    "You're stuck in an elevator {./assets/irl/places/Elevator.png} with #runner#, #runner#, and #runner#. What do you do?",
+
+    "#runner# has banned #runner# chatters from their chat.",
+    "#runner# has blocked #runner# on Twitter. {./assets/stupid/Twitter Block.png}",
+    "#runner# has released a diss track about #runner#!",
+
+    "{./assets/irl/Boxing.png} Who would win in a boxing match? #runner# or #runner#?",
+    "{./assets/irl/Cook Off.png} #runner# and #runner# are having a cook-off! Who would win?",
+
+    "#runner# appreciation post ♡",
+    "#runner# thinks you should #motivation# ♡ :)",
+    "#runner# thinks you should #demotivation# ♡ :)",
+
+    "#runner# slapped #runner#! What the hell?! D:",
+    "#runner# was hit by #vehicle.a# driven by #runner#!",
+    "#runner# has been cancelled for #crime#.",
+    "#runner# put it all on black and #outcome#! {./assets/stupid/Roulette.png",
+    "#runner# doesn't pay their taxes. {./assets/stupid/crime/Tax Evasion.png}",
+    "#runner# has filed a restraining order {./assets/stupid/Restraining Order.png} against #runner#!",
+    "{./assets/irl/places/Court.png} You're in court for #crime#! #runner# is your lawyer, are you winning?",
+    "#runner# has been sentenced to life in prison for #crime#.",
+    "Reports are saying #runner# had fainted from seeing a job application! {./assets/stupid/Job Application.png}",
+
+    "CONFIRMED! #runner# will be starring on the next season of #show#!",
+    "#runner# has been revealed as a new member of #kpop#",
+    "#runner# will be teaching #collab# how to speedrun Minecraft!",
+    "#runner# will be teaching the members of #kpop# how to speedrun Minecraft!",
+
+    "Heartbreaking 💔💔  #runner# is woke... {./assets/stupid/Woke.png}",
+    "#runner# has bought #runner# the Miku car! {./assets/irl/vehicle/Miku Car.png}",
+    "#runner.capitalizeAll#! are you /srs or /j ?! {./assets/stupid/srs or j.png}",
+    "#[char:runner]rep sentence#"
   ],
 
-  "bastion": [
-    "Housing",
-    "Stables",
-    "Treasure",
-    "Bridge"
+  "rep sentence" : [
+    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. {./assets/stupid/F5.png}",
+    "#char#... #char#, we need to cook! {./assets/stupid/Sparkly Crystals.png}",
+    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {./assets/stupid/MIKU MIKU BEAM.png}"
+  ],
+  
+  "runner": [
+    "Couriway{./assets/runners/Couriway.png}",
+    "Feinberg{./assets/runners/Feinberg.png}",
+    "raddles{./assets/runners/raddles.png}",
+    "silverrruns{./assets/runners/silverrruns.png}",
+    "Fulham{./assets/runners/Fulham.png}",
+    "nEmerald{./assets/runners/nEmerald.png}",
+    "dandannyboy{./assets/runners/dandannyboy.png}",
+    "President Poundcake{./assets/runners/President Poundcake.png}",
+    "fruitberries{./assets/runners/fruitberries.png}",
+    "Fyroah{./assets/runners/Fyroah.png}",
+    "Nerdi{./assets/runners/Nerdi.png}",
+    "Oliver{./assets/runners/OliverMCSR.png}",
+    "Infume{./assets/runners/Infume.png}",
+    "KyleEff{./assets/runners/KyleEff.png}",
+    "TapL{./assets/runners/TapL.png}",
+    "rekrap{./assets/runners/rekrap.png}",
+    "Specnr{./assets/runners/Specnr.png}",
+    "MoleyG{./assets/runners/MoleyG.png}",
+    "Dylqn{./assets/runners/Dylqn.png}",
+    "Cube1337x{./assets/runners/Cube1337x.png}",
+    "zylenox{./assets/runners/zylenox.png}",
+    "Dav1E{./assets/runners/Dav1E.png}",
+    "TalkingMime{./assets/runners/TalkingMime.png}",
+    "doogile{./assets/runners/doogile.png}",
+    "Katherine{./assets/runners/Queenkac.png}",
+    "Automatt{./assets/runners/AutomattPL.png}",
+    "TigerMCSR{./assets/runners/TigerMCSR.png}",
+    "oshy{./assets/runners/oshy.png}",
+    "r0hkx{./assets/runners/r0hkx.png}",
+    "hackingnoises{./assets/runners/hackingnoises.png}",
+    "7rowl{./assets/runners/7rowl.png}",
+    "bigbigmongey{./assets/runners/bigbigmongey.png}",
+    "BeefSalad{./assets/runners/BeefSalad.png}",
+    "Drip120{./assets/runners/Drip120.png}",
+    "oxidiot{./assets/runners/oxidiot.png}",
+    "Erikfzf{./assets/runners/Erikfzf.png}",
+    "lowkey{./assets/runners/lowkey.png}",
+    "edcr{./assets/runners/edcr.png}",
+    "Altoid{./assets/runners/JustAltoid.png}",
+    "skycrab{./assets/runners/skycrab.png}",
+    "HanabiYaki{./assets/runners/HanabiYaki.png}",
+    "dolqhin{./assets/runners/dolqhin.png}",
+    "v_strid{./assets/runners/v_strid.png}",
+    "oGarfield{./assets/runners/oGarfield.png}",
+    "mollyyxy{./assets/runners/mollyyxy.png}",
+    "Loefars{./assets/runners/Loefars.png}",
+    "Saltron_mp4{./assets/runners/Saltron_mp4.png}",
+    "Dawn357x{./assets/runners/Dawn357x.png}",
+    "CookieAddicts{./assets/runners/CookieAddicts.png}",
+    "lakesuner{./assets/runners/lakesuner.png}",
+    "hpx374{./assets/runners/hpx374.png}",
+    "Andronicus{./assets/runners/Andronicus.png}",
+    "Aquacorde{./assets/runners/Aquacorde.png}",
+    "GradientGray{./assets/runners/GradientGray.png}",
+    "priffie{./assets/runners/priffie.png}"
+  ],
+
+  "outcome": [
+    "won",
+    "lost"
   ],
   
   "best of outcome": [
-    "won 3-0",
-    "won 3-2",
-    "won 2-1",
-    "lost 1-2",
-    "lost 2-3",
-    "lost 0-3"
+    "2-0",
+    "2-1",
+    "1-2",
+    "0-2"
+  ],
+
+  "bastion": [
+    "Treasure{./assets/minecraft/bastions/Treasure.png}",
+    "Bridge{./assets/minecraft/bastions/Bridge.png}",
+    "Housing{./assets/minecraft/bastions/Housing.png}",
+    "Stables{./assets/minecraft/bastions/Stables.png}"
+  ],
+
+  "structure": [
+    "#bastion# Bastion",
+    "fortress{./assets/minecraft/structure/fortress}",
+    "stronghold{./assets/minecraft/structure/Stronghold.png}"
+  ],
+
+  "animal": [
+    "dog{./assets/minecraft/animal/Dog.png}",
+    "cat{./assets/minecraft/animal/Cat.png}",
+    "parrot{./assets/minecraft/animal/Parrot.png}",
+    "cow{./assets/minecraft/animal/Cow.png}",
+    "sheep{./assets/minecraft/animal/Sheep.png}",
+    "pig{./assets/minecraft/animal/Pig.png}"
+  ],
+
+  "vehicle": [
+    "truck{./assets/irl/vehicle/Truck.png}",
+    "bus{./assets/irl/vehicle/Bus.png}",
+    "car{./assets/irl/vehicle/Car.png}",
+    "Miku Car{./assets/irl/vehicle/Miku Car.png}"
+  ],
+
+  "store": [
+    "Chipotle{./assets/irl/places/Chipotle.png}",
+    "Waffle House{./assets/irl/places/Waffle House.png}",
+    "IKEA{./assets/irl/places/IKEA.png}",
+    "Walmart{./assets/irl/places/Walmart.png}",
+    "Target{./assets/irl/places/Target.png}"
+  ],
+
+  "crime": [
+    "burning a house down{./assets/stupid/crime/Arson.png}",
+    "stealing #runner.possessive# elo{./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
+    "{./assets/stupid/crime/Robbery.png}robbing #store.a#",
+    "tax evasion{./assets/stupid/crime/Tax Evasion.png}",
+    "stealing #runner.possessive# #animal# D:",
+    "killing #runner.possessive# #animal# D:",
+    "killing a villager{./assets/stupid/crime/Villager Die.png}",
+    "feeding a parrot cookies{./assets/stupid/crime/Parrot Cookie.png}"
+  ],
+
+  "motivation": [
+    "reach peak elo{./assets/ranked/Peak Elo.png}",
+    "get a new PB{./assets/motivate/PB.png}",
+    "hit a zero cycle{./assets/minecraft/Zero Cycle.png}",
+    "eat your vegetables{./assets/irl/Vegetables.png}",
+    "take a nap{./assets/motivate/Nap.png}",
+    "posture check{./assets/motivate/Posture Check.png}"
+  ],
+
+  "demotivation": [
+    "keep gambling because 99.99% gamblers quit before the hit it big{./assets/demotivate/Gambling.png}",
+    "lose all your elo{./assets/ranked/Lose Streak.png}",
+    "break your back{./assets/demotivate/Broken Back.png}",
+    "misplace obby{./assets/demotivate/Misplace Obby.png}",
+    "die in a #bastion# bastion",
+    "get caved{./assets/demotivate/Caved.png}",
+    "get multiple eye breaks{./assets/demotivate/Eye Break.png}",
+    "mismeasure{./assets/demotivate/Mismeasure.png}",
+    "fuck up a ruined portal completion{./assets/minecraft/structure/Ruined Portal.png}",
+    "fuck up a 2x1{./assets/demotivate/2x1.png}",
+    "blow up a blaze spawner{./assets/minecraft/structure/Blaze Spawner.png}",
+    "fuck up a zero cycle{./assets/minecraft/Zero Cycle.png}",
+    "fuck up a one cycle{./assets/minecraft/One Cycle.png}",
+    "die in the fountain{./assets/minecraft/structure/End Fountain.png}",
+    "die to an endermite{./assets/minecraft/mobs/Endermite.png}"
+  ],
+
+  "show": [
+    "Survivor{./assets/stupid/show/Survivor.png}",
+    "Big Brother{./assets/stupid/show/Big Brother.png}",
+    "Love Island{./assets/stupid/show/Love Island.png}",
+    "MasterChef{./assets/stupid/show/MasterChef.png}",
+    "Wipeout{./assets/stupid/show/Wipeout.png}",
+    "Boys Planet{./assets/stupid/show/Boys Planet.png}"
+  ],
+
+  "collab": [
+    "Hatsune Miku{./assets/stupid/collab/Hatsune Miku.png}",
+    "Kasane Teto{./assets/stupid/collab/Kasane Teto.png}",
+    "Sabrina Carpenter{./assets/stupid/collab/Sabrina Carpenter.png}",
+    "Laufey{./assets/stupid/collab/Laufey.png}",
+    "LeBron James{./assets/stupid/collab/LeBron James.png}",
+    "Taylor Swift{./assets/stupid/collab/Taylor Swift.png}",
+    "Olivia Rodrigo{./assets/stupid/collab/Olivia Rodrigo.png}"
+  ],
+
+  "kpop": [
+    "TWICE{./assets/stupid/collab/kpop/TWICE.png}",
+    "ILLIT{./assets/stupid/collab/kpop/ILLIT.png}",
+    "KATSEYE{./assets/stupid/collab/kpop/KATSEYE.png}"
   ]
 }
