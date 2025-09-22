@@ -15,17 +15,14 @@
     "#char.name# appreciation post ♡ {#char.img#}",
     "#char.name# {#char.img#} thinks you should #motivation# ♡ :)",
     "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
-
-    "#char.name# {#char.img#} has been cancelled for #crime#.",
+    
     "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
     
     "#char.name# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
     "#char.name# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
 
     "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
-    "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}",
-
-    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
+    "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}"
   ],
 
   "court_lawyer": [
