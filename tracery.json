@@ -1,19 +1,13 @@
 {
   "event": [
-    "#[char:#runner#]solo sentence#",
-    "#[char1:#runner#][char2:#runner#]duo sentence#"
+    "#[char:#runner#]solo sentence#"
   ],
 
   "solo sentence": [
     "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
 
-    "#char.name# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
-
-    "Oh no! #char.name# {#char.img#} died in the #structure#.",
     "#char.name# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
 
-    "#char.name# appreciation post ♡ {#char.img#}",
-    "#char.name# {#char.img#} thinks you should #motivation# ♡ :)",
     "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
     
     "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
@@ -51,17 +45,11 @@
     "Couriway|./assets/runners/Couriway.png",
     "Feinberg|./assets/runners/Feinberg.png",
     "raddles|./assets/runners/raddles.png",
-    "oshy|./assets/runners/oshy.png",
-    "hackingnoises|./assets/runners/hackingnoises.png",
     "7rowl|./assets/runners/7rowl.png",
     "bigbigmongey|./assets/runners/bigbigmongey.png",
     "BeefSalad|./assets/runners/BeefSalad.png",
-    "HanabiYaki|./assets/runners/HanabiYaki.png",
     "dolqhin|./assets/runners/dolqhin.png",
-    "oGarfield|./assets/runners/oGarfield.png",
-    "mollyyxy|./assets/runners/mollyyxy.png",
-    "Dawn357x|./assets/runners/Dawn357x.png",
-    "priffie|./assets/runners/priffie.png"
+    "oGarfield|./assets/runners/oGarfield.png"
   ],
 
   "outcome": [
