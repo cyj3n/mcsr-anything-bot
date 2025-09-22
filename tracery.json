@@ -1,70 +1,184 @@
 {
   "event": [
-    "#[char:#runner#]sentence#"
+    "#[char:#runner.name#][charImg:#runner.img#]sentence#",
+    
+    "#runner# has blocked #runner# on Twitter. {./assets/stupid/Twitter Block.png}",
+    
+    "#runner.capitalizeAll#! are you /srs or /j ?! {./assets/stupid/srs or j.png}"
   ],
 
   "sentence" : [
-    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. {./assets/stupid/F5.png}",
-    "#char#... #char#, we need to cook! {./assets/stupid/Sparkly Crystals.png}",
-    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {./assets/stupid/MIKU MIKU BEAM.png}"
+    "But then, #char# had a very good idea. #char# used F5. See, using F5 gave them a whole new perspective. #charImg# {./assets/stupid/F5.png}",
+    "#char#... #char#, we need to cook! #charImg# {./assets/stupid/Sparkly Crystals.png}",
+    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! #charImg# {./assets/stupid/MIKU MIKU BEAM.png}"
   ],
   
   "runner": [
-    "Couriway{./assets/runners/Couriway.png}",
-    "Feinberg{./assets/runners/Feinberg.png}",
-    "raddles{./assets/runners/raddles.png}",
-    "silverrruns{./assets/runners/silverrruns.png}",
-    "Fulham{./assets/runners/Fulham.png}",
-    "nEmerald{./assets/runners/nEmerald.png}",
-    "dandannyboy{./assets/runners/dandannyboy.png}",
-    "President Poundcake{./assets/runners/President Poundcake.png}",
-    "fruitberries{./assets/runners/fruitberries.png}",
-    "Fyroah{./assets/runners/Fyroah.png}",
-    "Nerdi{./assets/runners/Nerdi.png}",
-    "Oliver{./assets/runners/OliverMCSR.png}",
-    "Infume{./assets/runners/Infume.png}",
-    "KyleEff{./assets/runners/KyleEff.png}",
-    "TapL{./assets/runners/TapL.png}",
-    "rekrap{./assets/runners/rekrap.png}",
-    "Specnr{./assets/runners/Specnr.png}",
-    "MoleyG{./assets/runners/MoleyG.png}",
-    "Dylqn{./assets/runners/Dylqn.png}",
-    "Cube1337x{./assets/runners/Cube1337x.png}",
-    "zylenox{./assets/runners/zylenox.png}",
-    "Dav1E{./assets/runners/Dav1E.png}",
-    "TalkingMime{./assets/runners/TalkingMime.png}",
-    "doogile{./assets/runners/doogile.png}",
-    "Katherine{./assets/runners/Queenkac.png}",
-    "Automatt{./assets/runners/AutomattPL.png}",
-    "TigerMCSR{./assets/runners/TigerMCSR.png}",
-    "oshy{./assets/runners/oshy.png}",
-    "r0hkx{./assets/runners/r0hkx.png}",
-    "hackingnoises{./assets/runners/hackingnoises.png}",
-    "7rowl{./assets/runners/7rowl.png}",
-    "bigbigmongey{./assets/runners/bigbigmongey.png}",
-    "BeefSalad{./assets/runners/BeefSalad.png}",
-    "Drip120{./assets/runners/Drip120.png}",
-    "oxidiot{./assets/runners/oxidiot.png}",
-    "Erikfzf{./assets/runners/Erikfzf.png}",
-    "lowkey{./assets/runners/lowkey.png}",
-    "edcr{./assets/runners/edcr.png}",
-    "Altoid{./assets/runners/JustAltoid.png}",
-    "skycrab{./assets/runners/skycrab.png}",
-    "HanabiYaki{./assets/runners/HanabiYaki.png}",
-    "dolqhin{./assets/runners/dolqhin.png}",
-    "v_strid{./assets/runners/v_strid.png}",
-    "oGarfield{./assets/runners/oGarfield.png}",
-    "mollyyxy{./assets/runners/mollyyxy.png}",
-    "Loefars{./assets/runners/Loefars.png}",
-    "Saltron_mp4{./assets/runners/Saltron_mp4.png}",
-    "Dawn357x{./assets/runners/Dawn357x.png}",
-    "CookieAddicts{./assets/runners/CookieAddicts.png}",
-    "lakesuner{./assets/runners/lakesuner.png}",
-    "hpx374{./assets/runners/hpx374.png}",
-    "Andronicus{./assets/runners/Andronicus.png}",
-    "Aquacorde{./assets/runners/Aquacorde.png}",
-    "GradientGray{./assets/runners/GradientGray.png}",
-    "priffie{./assets/runners/priffie.png}"
+    { "name": "Couriway", 
+      "img": "{./assets/runners/Couriway.png}" 
+    },
+    { "name": "Feinberg", 
+      "img": "{./assets/runners/Feinberg.png}"
+    },
+    { "name": "raddles", 
+      "img": "{./assets/runners/raddles.png}"
+    },
+    { "name": "silverrruns", 
+      "img": "{./assets/runners/silverrruns.png}"
+    },
+    { "name": "Fulham", 
+      "img": "{./assets/runners/Fulham.png}"
+    },
+    { "name": "nEmerald", 
+      "img": "{./assets/runners/nEmerald.png}"
+    },
+    { "name": "dandannyboy", 
+      "img": "{./assets/runners/dandannyboy.png}"
+    },
+    { "name": "President Poundcake", 
+      "img": "{./assets/runners/President Poundcake.png}"
+    },
+    { "name": "fruitberries", 
+      "img": "{./assets/runners/fruitberries.png}"
+    },
+    { "name": "Fyroah", 
+      "img": "{./assets/runners/Fyroah.png}"
+    },
+    { "name": "Nerdi", 
+      "img": "{./assets/runners/Nerdi.png}"
+    },
+    { "name": "Oliver", 
+      "img": "{./assets/runners/OliverMCSR.png}"
+    },
+    { "name": "Infume", 
+      "img": "{./assets/runners/Infume.png}"
+    },
+    { "name": "KyleEff", 
+      "img": "{./assets/runners/KyleEff.png}"
+    },
+    { "name": "TapL", 
+      "img": "{./assets/runners/TapL.png}"
+    },
+    { "name": "rekrap", 
+      "img": "{./assets/runners/rekrap.png}"
+    },
+    { "name": "Specnr", 
+      "img": "{./assets/runners/Specnr.png}"
+    },
+    { "name": "MoleyG", 
+      "img": "{./assets/runners/MoleyG.png}"
+    },
+    { "name": "Dylqn", 
+      "img": "{./assets/runners/Dylqn.png}"
+    },
+    { "name": "Cube1337x", 
+      "img": "{./assets/runners/Cube1337x.png}"
+    },
+    { "name": "zylenox", 
+      "img": "{./assets/runners/zylenox.png}"
+    },
+    { "name": "Dav1E",  
+      "img": "{./assets/runners/Dav1E.png}"
+    },
+    { "name": "TalkingMime", 
+      "img": "{./assets/runners/TalkingMime.png}"
+    },
+    { "name": "doogile", 
+      "img": "{./assets/runners/doogile.png}"
+    },
+    { "name": "Katherine", 
+      "img": "{./assets/runners/Queenkac.png}"
+    },
+    { "name": "Automatt",
+       "img": "{./assets/runners/AutomattPL.png}"
+      },
+    { "name": "TigerMCSR", 
+      "img": "{./assets/runners/TigerMCSR.png}"
+    },
+    { "name": "oshy", 
+      "img": "{./assets/runners/oshy.png}"
+    },
+    { "name": "r0hkx", 
+      "img": "{./assets/runners/r0hkx.png}"
+    },
+    { "name": "hackingnoises", 
+      "img": "{./assets/runners/hackingnoises.png}"
+    },
+    { "name": "7rowl", 
+      "img": "{./assets/runners/7rowl.png}"
+    },
+    { "name": "bigbigmongey",   
+      "img": "{./assets/runners/bigbigmongey.png}"
+    },
+    { "name": "BeefSalad", 
+      "img": "{./assets/runners/BeefSalad.png}"
+    },
+    { "name": "Drip120", 
+      "img": "{./assets/runners/Drip120.png}"
+    },
+    { "name": "oxidiot",
+      "img": "{./assets/runners/oxidiot.png}"
+    },
+    { "name": "Erikfzf", 
+      "img": "{./assets/runners/Erikfzf.png}"
+    },
+    { "name": "lowkey", 
+      "img": "{./assets/runners/lowkey.png}"
+    },
+    { "name": "edcr", 
+      "img": "{./assets/runners/edcr.png}"
+    },
+    { "name": "Altoid",
+      "img": "{./assets/runners/JustAltoid.png}"
+    },
+    { "name": "skycrab",
+      "img": "{./assets/runners/skycrab.png}"
+    },
+    { "name": "HanabiYaki",
+      "img": "{./assets/runners/HanabiYaki.png}"
+    },
+    { "name": "dolqhin", 
+      "img": "{./assets/runners/dolqhin.png}"
+    },
+    { "name": "v_strid", 
+      "img": "{./assets/runners/v_strid.png}"
+    },
+    { "name": "oGarfield", 
+      "img": "{./assets/runners/oGarfield.png}"
+    },
+    { "name": "mollyyxy",
+      "img": "{./assets/runners/mollyyxy.png}"
+    },
+    { "name": "Loefars", 
+      "img": "{./assets/runners/Loefars.png}"
+    },
+    { "name": "Saltron_mp4", 
+      "img": "{./assets/runners/Saltron_mp4.png}"
+    },
+    { "name": "Dawn357x", 
+      "img": "{./assets/runners/Dawn357x.png}"
+    },
+    { "name": "CookieAddicts", 
+      "img": "{./assets/runners/CookieAddicts.png}"
+    },
+    { "name": "lakesuner", 
+      "img": "{./assets/runners/lakesuner.png}"
+    },
+    { "name": "hpx374", 
+      "img": "{./assets/runners/hpx374.png}"
+    },
+    { "name": "Andronicus", 
+      "img": "{./assets/runners/Andronicus.png}"
+    },
+    { "name": "Aquacorde", 
+      "img": "{./assets/runners/Aquacorde.png}"
+    },
+    { "name": "GradientGray", 
+      "img": "{./assets/runners/GradientGray.png}"
+    },
+    { "name": "priffie", 
+      "img": "{./assets/runners/priffie.png}"
+    }
   ],
 
   "outcome": [
