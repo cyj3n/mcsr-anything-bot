@@ -7,10 +7,6 @@
     "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.capitalizeAll# #char.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
 
     "#char.name# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
-
-    "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
-    
-    "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
     
     "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
     "#char.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}"
@@ -40,7 +36,6 @@
   
   "runner": [
     "Feinberg|./assets/runners/Feinberg.png",
-    "raddles|./assets/runners/raddles.png",
     "BeefSalad|./assets/runners/BeefSalad.png",
     "dolqhin|./assets/runners/dolqhin.png",
     "oGarfield|./assets/runners/oGarfield.png"
