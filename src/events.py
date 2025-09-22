@@ -126,12 +126,10 @@ def s(text: str, *params):
 
 
 def runner_name(text: str, *params):
-    return text.split("|", 1)[0].strip()
-
+    return text.split("|", 1)[0]
 
 def runner_img(text: str, *params):
-    parts = text.split("|", 1)
-    return parts[1].strip() if len(parts) > 1 else ""
+    return text.split("|", 1)[1]
 
 
 added_mods = {
