@@ -44,18 +44,16 @@ class EventParser:
         """
         raw_text = self.flatten("#event#")
         parsed_text, pics = self.parse_raw_text(raw_text)
-        parsed_text = re.sub(r'\s+', ' ', parsed_text)
+        parsed_text = re.sub(r'\s+', ' ', parsed_text).strip()
         return parsed_text, pics
 
-    def flatten(self, text):
+    def flatten(self, text: str) -> str:
         """
         Uses tracery to flatten given text
-        :param text:Text to flatten
-        :return: Flattened text
         """
         raw_text = self.__parser.flatten(text)
 
-        if '((' in raw_text:
+        if '((' in raw_text:  # error marker from your grammar
             if self.__log:
                 bot_logging.log_error(f'eventparser.py: TraceryError in "{raw_text}"')
             raise TraceryError(raw_text)
@@ -63,22 +61,13 @@ class EventParser:
         return raw_text
 
     @staticmethod
-    def parse_raw_text(raw_text) -> Tuple[str, list[str]]:
+    def parse_raw_text(raw_text: str) -> Tuple[str, list[str]]:
         """
-        Parses raw text from tracery
-        :param raw_text:Raw tracery text
-        :return: Parsed text of the event, list of pictures to upload in order
+        Parses raw text from tracery into visible text + list of pictures
         """
-        split_text = re.split("({.*?})", raw_text)
-
-        pics = []
-        for i, t in enumerate(split_text):
-            if '{' in t and '}' in t:
-                split_text.pop(i)
-                t = t.removeprefix('{').removesuffix('}')
-                pics.append(t)
-
-        return ''.join([t for t in split_text]), pics
+        pics = re.findall(r"\{([^}]+)\}", raw_text)  # grab everything inside { }
+        text = re.sub(r"\{[^}]+\}", "", raw_text)   # remove { ... } from text
+        return text, pics
 
 
 def front_half(text: str, *params):
@@ -135,12 +124,22 @@ def s(text: str, *params):
         return s_base(text)
 
 
+def runner_name(text):
+    return text.split("|")[0]
+
+
+def runner_img(text):
+    return text.split("|")[1] if "|" in text else ""
+
+
 added_mods = {
     'possessive': possessive,
     'nDef': nDef,
     'frontHalf': front_half,
     'backHalf': back_half,
-    's': s
+    's': s,
+    'name': runner_name,
+    'img': runner_img
 }
 
 

@@ -1,4 +1,3 @@
-import atproto
 import tweepy
 from tweepy import TweepyException
 
