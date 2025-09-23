@@ -139,9 +139,9 @@
   ],
 
   "crime": [
-    "#[victim:#runner#]stealing #victim.name.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
-    "#[victim:#runner#]stealing #victim.name.possessive# #animal#! {#victim.img#}",
-    "#[victim:#runner#]killing #victim.name.possessive# #animal#! {#victim.img#}",
+    "#[victim:#runner#]# stealing #victim.name.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
+    "#[victim:#runner#]# stealing #victim.name.possessive# #animal#! {#victim.img#}",
+    "#[victim:#runner#]# killing #victim.name.possessive# #animal#! {#victim.img#}",
 
     "{./assets/stupid/crime/Robbery.png} robbing #store.a#",
     "tax evasion {./assets/stupid/crime/Tax Evasion.png}",  
