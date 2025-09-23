@@ -6,7 +6,7 @@
   "solo sentence": [
     "#char.name# {#char.img#} has been cancelled for #crime#.",
 
-    "You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
+    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
   ],
 
   "court lawyer": [
