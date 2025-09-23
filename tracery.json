@@ -1,37 +1,15 @@
 {
   "event": [
-    "#[char:#runner#]solo sentence#",
-    "#[char1:#runner#][char2:#runner#]duo sentence#",
-    "#[char1:#runner#][char2:#runner#][char3:#runner#]trio sentence#"
+    "#[char:#runner#]solo sentence#"
   ],
 
   "solo sentence": [
-    "But then, #char.name# had a very good idea. #char.name# used F5. See, using F5 gave them a whole new perspective. {#char.img#} {./assets/stupid/F5.png}",
-    "#char.name#... #char.name#, we need to cook! {#char.img#} {./assets/stupid/Sparkly Crystals.png}",
-    "And now... it's time for the moment you've been waiting for!\nOne...\nTwo...\nThree...\nReady?\n\n#char.name.capitalizeAll# #char.name.capitalizeAll# BEAM!!!! {#char.img#} {./assets/stupid/MIKU MIKU BEAM.png}",
-
-    "#char.name# has lost 10 games in a row... pats... {#char.img#} {./assets/ranked/Lose Streak.png}",
-
-    "Oh no! #char.name# {#char.img#} died in the #structure#.",
-    "#char.name# has gone vegan! {#char.img#} {./assets/irl/Vegetables.png}",
-
-    "#char.name# appreciation post ♡ {#char.img#}",
-    "#char.name# {#char.img#} thinks you should #motivation# ♡ :)",
-    "#char.name# {#char.img#} thinks you should #demotivation# ♡ :)",
-
     "#char.name# {#char.img#} has been cancelled for #crime#.",
-    "#char.name# put it all on black and #outcome#! {#char.img#} {./assets/stupid/Roulette.png}",
-    
-    "#char.name# {#char.img#} will be teaching #collab# how to speedrun Minecraft!",
-    "#char.name# {#char.img#} will be teaching the members of #kpop# how to speedrun Minecraft!",
 
-    "Heartbreaking 💔💔 #char.name# is woke... {#char.img#} {./assets/stupid/Woke.png}",
-    "#char.name.capitalizeAll#! are you /srs or /j ?! {#char.img#} {./assets/stupid/srs or j.png}",
-
-    "{./assets/irl/places/Court.png} You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
+    "You're in court for #crime#! #[lawyer:#runner#]court lawyer#"
   ],
 
-  "court_lawyer": [
+  "court lawyer": [
     "#lawyer.name# {#lawyer.img#} is your lawyer, are you cooked?",
     "#lawyer.name# {#lawyer.img#} is your lawyer, are you winning?",
     "#lawyer.name# {#lawyer.img#} is your lawyer, are you losing?"
