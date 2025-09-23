@@ -142,8 +142,8 @@
     "#[victim:#runner#]thieving#",
 
     "{./assets/stupid/crime/Robbery.png} robbing #store.a#",
-    "tax evasion {./assets/stupid/crime/Tax Evasion.png}",  
-    "feeding a parrot cookies {./assets/stupid/crime/Parrot Cookie.png}"
+    "tax evasion{./assets/stupid/crime/Tax Evasion.png}",  
+    "feeding a parrot cookies{./assets/stupid/crime/Parrot Cookie.png}"
   ],
 
   "thieving": [
