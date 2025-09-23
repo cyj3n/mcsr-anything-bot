@@ -139,13 +139,17 @@
   ],
 
   "crime": [
-    "#[victim:#runner#]# stealing #victim.name.possessive# elo! {#victim.img#} {./assets/stupid/crime/Robbery.png}{./assets/ranked/Elo.png}",
-    "#[victim:#runner#]# stealing #victim.name.possessive# #animal#! {#victim.img#}",
-    "#[victim:#runner#]# killing #victim.name.possessive# #animal#! {#victim.img#}",
+    "#[victim:#runner#]thieving#",
 
     "{./assets/stupid/crime/Robbery.png} robbing #store.a#",
     "tax evasion {./assets/stupid/crime/Tax Evasion.png}",  
     "feeding a parrot cookies {./assets/stupid/crime/Parrot Cookie.png}"
+  ],
+
+  "thieving": [
+    "stealing #victim.name.possessive# elo! {#victim.img#} {./assets/ranked/Elo.png}",
+    "stealing #victim.name.possessive# {#victim.img#} pet #animal#",
+    "killing #victim.name.possessive# {#victim.img#} pet #animal# D: "
   ],
 
   "motivation": [
